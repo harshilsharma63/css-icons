@@ -1,0 +1,21 @@
+.mastercard > .circle {
+    width: 70%;
+    border-radius: 50%;
+    height: 70%;
+    position: absolute;
+}
+
+.mastercard > .circle.yellow {
+    background-color: #F79E1B;
+    right: -6%;
+    opacity: 0.4;
+}
+
+.mastercard > .circle.red {
+    background-color: #EB001B;
+    left: -6%;
+}
+
+.mastercard > .circle.yellow.background {
+    opacity: 1;
+}
