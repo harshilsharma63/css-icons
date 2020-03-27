@@ -1,0 +1,92 @@
+.newbalance {
+    font-family: 'Roboto', sans-serif;
+    font-size: 800%;
+    letter-spacing: -25px;
+    padding-right: 25px;
+    position: relative;
+}
+
+.newbalance > .strip {
+    width: 0;
+    height: 0;
+    border: 2px solid transparent;
+    border-left: 70px solid white;
+    position: absolute;
+    border-right: none;
+    left: 19%;
+    top: 22%; /* margin-top: 4px; */
+}
+
+.newbalance > .strip:nth-child(1) {
+    top: 33%;
+}
+
+.newbalance > .strip:nth-child(3) {
+    top: calc(22% + 6px);
+    left: calc(19% - 1.5px);
+}
+
+.newbalance > .strip:nth-child(4) {
+    top: calc(22% + 12px);
+    left: calc(19% - 2.5px);
+}
+
+.newbalance > .strip:nth-child(5) {
+    top: calc(22% + 18px);
+    left: calc(19% - 3.5px);
+}
+
+.newbalance > .strip:nth-child(6) {
+    top: calc(22% + 24px);
+    left: calc(19% - 4.5px);
+}
+
+.newbalance > .strip:nth-child(7) {
+    top: calc(22% + 30px);
+    left: calc(19% - 5.5px);
+}
+
+.newbalance > .strip:nth-child(8) {
+    top: calc(22% + 36px);
+    left: calc(19% - 6.5px);
+}
+
+.newbalance > .strip:nth-child(9) {
+    top: calc(22% + 42px);
+    left: calc(19% - 7.5px);
+}
+
+.newbalance > .strip:nth-child(10) {
+    top: calc(22% + 48px);
+    left: calc(19% - 8.5px);
+}
+
+.newbalance > .strip:nth-child(11) {
+    top: calc(22% + 54px);
+    left: calc(19% - 9.5px);
+}
+
+.newbalance > .strip:nth-child(12) {
+    top: calc(22% + 60px);
+    left: calc(19% - 10.5px);
+}
+
+.newbalance > .strip:nth-child(13) {
+    top: calc(22% + 66px);
+    left: calc(19% - 11.5px);
+}
+
+.newbalance > .strip:nth-child(14) {
+    top: calc(22% + 72px);
+    left: calc(19% - 12.5px);
+}
+
+.newbalance > .strip:nth-child(15) {
+    top: calc(22% + 78px);
+    left: calc(19% - 13.5px);
+}
+
+.newbalance > .strip:nth-child(16) {
+    top: calc(22% + 84px);
+    left: calc(19% - 14.5px);
+}
