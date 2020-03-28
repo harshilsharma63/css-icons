@@ -1,0 +1,48 @@
+.adidas > .text {
+    font-family: 'Questrial', sans-serif;
+}
+
+.adidas > .icon {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    margin-bottom: -7px;
+    margin-right: -10%;
+}
+
+.adidas > .icon > .wrapper {
+    height: 90%;
+    flex-direction: row;
+    display: flex;
+    transform: rotate(-30deg);
+    margin-top: 10%;
+    margin-right: 0;
+}
+
+.square.adidas {
+    flex-direction: column;
+}
+
+.adidas > .icon > .wrapper > .strip {
+    height: 120%;
+    width: 17%;
+    background-color: black;
+    margin-left: 6%;
+    margin-top: 0%;
+}
+
+.adidas > .icon > .wrapper > .strip.middle {
+    margin-top: 6%;
+}
+
+.adidas > .icon > .wrapper > .strip.left {
+    margin-top: 10%;
+}
+
+.adidas > .text {
+    font-size: 340%;
+}
+
+.extra-bold {
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
