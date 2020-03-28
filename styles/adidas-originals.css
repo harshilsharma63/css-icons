@@ -1,0 +1,79 @@
+.adidas-original > .text {
+    font-size: 270%;
+    font-family: 'Questrial', sans-serif;
+}
+
+.adidas-original > .icon {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.adidas-original {
+    flex-direction: column;
+}
+
+.adidas-original > .icon > .leaf > .half {
+    height: 100%;
+    border: 25px solid black;
+    border-bottom: 0;
+    border-top: 0;
+    border-radius: 50%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+.adidas-original > .icon > .leaf {
+    width: 17%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 6%;
+    margin-bottom: -3%;
+}
+
+.adidas-original > .icon > .leaf:nth-child(1) {
+    margin: 0;
+}
+
+.adidas-original > .icon > .leaf > .half.left {
+    clip-path: inset(0% 70% 0% 0);
+    border-right: 0;
+}
+
+.adidas-original > .icon > .leaf > .half.right {
+    clip-path: inset(0% 0 0% 70%);
+    border-left: 0;
+    left: -132%;
+    /* display: none; */
+}
+
+.adidas-original > .icon > .leaf.left {transform: rotate(-40deg);top: 8%;left: -9px;}
+
+.adidas-original > .icon > .leaf.right {
+    transform: rotate(40deg);
+    top: calc(17% + 1px);
+    right: -5px;
+}
+
+.adidas-original > .icon > .leaf.middle {
+    bottom: 8px;
+    top: 0%;
+}
+
+.adidas-original > .icon > .white-strip {position: absolute;width: 100%;height: 20%;bottom: 39%;}
+
+.adidas-original > .icon > .white-strip > .strip {
+    width: 100%;
+    height: 6px;
+    background-color: white;
+    margin-bottom: 6px;
+}
+
+.adidas-original > .icon > .white-strip > .strip:nth-child(3) {
+    margin-bottom: 0;
+}
