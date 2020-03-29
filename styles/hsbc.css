@@ -1,63 +1,57 @@
 .hsbc > .arrow-up {
     width: 0;
     height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
     border-bottom: 5px solid black;
+}
+
+.hsbc > .arrow-up.red {
+    border-bottom: 40px solid red;
+    position: absolute;
+    bottom: 25%;
 }
 
 .hsbc > .arrow-down {
     width: 0;
     height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    /*border-top: 20px solid #f00;*/
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 20px solid #f00;
+}
+
+.hsbc > .arrow-down.red {
+    border-top: 40px solid red;
+    position: absolute;
+    top: 25%;
 }
 
 .hsbc > .arrow-right {
     width: 0;
     height: 0;
-    border-top: 60px solid transparent;
-    border-bottom: 60px solid transparent;
-    /*border-left: 60px solid green;*/
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+
+.hsbc > .arrow-right.red {
+    border-left: 40px solid red;
+}
+
+.hsbc > .arrow-right.white {
+    border-left: 40px solid white;
 }
 
 .hsbc > .arrow-left {
     width: 0;
     height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
 }
 
 .hsbc > .arrow-left.red {
-    border-right:10px solid red;
+    border-right: 40px solid red;
 }
 
 .hsbc > .arrow-left.white {
-    border-right:10px solid blue;
-}
-
-.hsbc > .arrow-up.red {
-    border-right:10px solid red;
-}
-
-.hsbc > .arrow-up.white {
-    border-right:10px solid blue;
-}
-
-.hsbc > .arrow-down.red {
-    border-right:10px solid red;
-}
-
-.hsbc > .arrow-down.white {
-    border-right:10px solid blue;
-}
-
-.hsbc > .arrow-right.red {
-    border-right:10px solid red;
-}
-
-.hsbc > .arrow-right.white {
-    border-right:10px solid blue;
+    border-right: 40px solid white;
 }
