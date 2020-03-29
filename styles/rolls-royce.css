@@ -1,0 +1,54 @@
+.rolls-royce > .rolls, .royce {
+    text-transform: uppercase;
+    background-color: #00498F;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    height: 15%;
+}
+
+.rolls-royce {
+    width: 40%;
+    flex-direction: column;
+    border: 8px solid #00498F;
+    border-radius: 20px;
+    padding: 6px;
+    font-family: 'Della Respira', serif;
+}
+
+.rolls-royce > .rolls {
+    border-radius: 7px 7px 0 0;
+    margin-top: 0;
+}
+
+.rolls-royce > .royce {
+    border-radius: 0 0 7px 7px;
+    margin-bottom: 0;
+}
+
+.rolls-royce > .rr {
+    background-color: #00498F;
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 110%;
+    font-size: 570%;
+    position: relative;
+    display: flex;
+    margin: 6% 0;
+}
+
+.rolls-royce > .rr > .r {
+    display: block;
+    position: absolute;
+    top: -6%;
+    text-shadow: 3px 0 0 #00498F, -2px 0 0 #00498F, 0 2px 0 #00498F, 0 -2px 0 #00498F, 1px 1px #00498F, -1px -1px 0 #00498F, 1px -2px 0 #00498F, -1px 1px 0 #00498F;
+    left: 18%;
+}
+
+.rolls-royce > .rr > .r:nth-child(2) {
+    top: -20px;
+    left: -1%;
+}

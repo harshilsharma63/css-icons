@@ -1,0 +1,63 @@
+.hsbc > .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+}
+
+.hsbc > .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    /*border-top: 20px solid #f00;*/
+}
+
+.hsbc > .arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    /*border-left: 60px solid green;*/
+}
+
+.hsbc > .arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+}
+
+.hsbc > .arrow-left.red {
+    border-right:10px solid red;
+}
+
+.hsbc > .arrow-left.white {
+    border-right:10px solid blue;
+}
+
+.hsbc > .arrow-up.red {
+    border-right:10px solid red;
+}
+
+.hsbc > .arrow-up.white {
+    border-right:10px solid blue;
+}
+
+.hsbc > .arrow-down.red {
+    border-right:10px solid red;
+}
+
+.hsbc > .arrow-down.white {
+    border-right:10px solid blue;
+}
+
+.hsbc > .arrow-right.red {
+    border-right:10px solid red;
+}
+
+.hsbc > .arrow-right.white {
+    border-right:10px solid blue;
+}
