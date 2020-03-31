@@ -1,0 +1,49 @@
+.stackoverflow > .base {
+    border: 16px solid #BCBBBB;
+    width: 58%;
+    border-top: 0;
+    height: 40px;
+    position: absolute;
+    bottom: 3%;
+}
+
+.stackoverflow > .strip {
+    background-color: #F48024;
+    width: 42%;
+    height: 9%;
+    margin-top: 3%;
+}
+
+.stackoverflow {
+    flex-direction: column-reverse;
+}
+
+.stackoverflow > .strip:nth-child(6) {
+    transform: rotate(54deg);
+    position: absolute;
+    top: 12%;
+    right: 2%;
+}
+
+.stackoverflow > .strip:nth-child(5) {
+    transform: rotate(40deg);
+    position: absolute;
+    top: 22%;
+    right: 14%;
+}
+
+.stackoverflow > .strip:nth-child(4) {transform: rotate(25deg);position: absolute;top: 36%;right: 23%;}
+
+.stackoverflow > .strip:nth-child(3) {
+    transform: rotate(12deg);
+    position: absolute;
+    top: 51%;
+    right: 27%;
+}
+
+.stackoverflow > .strip:nth-child(2) {
+    /* transform: rotate(12deg); */
+    position: absolute;
+    top: 66%;
+    right: 29%;
+}
