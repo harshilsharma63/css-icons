@@ -1,0 +1,75 @@
+.paypal > .circle.bg, .paypal > .p.upper > div {
+    background-color: #253B80;
+}
+
+.paypal > .p.lower > div {
+    background-color: #169BD7;
+}
+
+.paypal > .p > .bar {
+    height: 80%;
+    width: 30%;
+    transform: skew(-10deg);
+    border-radius: 6px;
+}
+
+.paypal > .circle.bg, .paypal > .p > .circle {
+    width: 55%;
+    height: 55%;
+    position: absolute;
+    top: 0;
+    /* background-color: green !important; */
+    transform: skew(-10deg);
+    border-radius: 6px 60% 50% 6px;
+    left: 20%;
+}
+
+.paypal > .p {
+    position: absolute;
+    width: 80%;
+    height: 90%;
+}
+
+.paypal {
+    position: relative;
+    top: column;
+}
+
+.paypal > .p.lower > .circle {
+    left: 20%;
+}
+
+.paypal > .p.upper {
+    top: 0;
+    left: 20%;
+}
+
+.paypal > .p.lower {
+    z-index: 1;
+    top: 22%;
+    left: 40%;
+}
+
+.paypal > .p.upper> .circle.bg {
+    z-index: -5;
+    opacity: 1;
+}
+
+.paypal > .p.upper> .circle {
+}
+
+.paypal > .circle.bg {
+    opacity: 1;
+    left: 16%;
+    /* border-radius: 6px 50% 50% 6px; */
+}
+
+.paypal > .p.upper:nth-child(1) {
+    opacity: 1;
+    z-index: 0;
+}
+
+.paypal > .p.upper:nth-child(2) {
+    opacity: 0.85;
+    z-index: 2;
+}
